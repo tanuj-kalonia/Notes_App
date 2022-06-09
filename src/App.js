@@ -19,7 +19,7 @@ export default function App() {
   function createNewNote() {
     const newNote = {
       id: nanoid(),
-      body: "#note's title here(Tanuj Kalonia)",
+      body: "#note's title here",
     };
     setNotes((prevNotes) => [...prevNotes, newNote]);
     setCurrentNoteId(newNote.id);
